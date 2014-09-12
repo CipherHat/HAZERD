@@ -4,3 +4,6 @@ from django.db import models
 
 class Company(models.Model):
     company_name = models.TextField('Company Name')
+
+    def __str__(self):
+        return self.company_name
