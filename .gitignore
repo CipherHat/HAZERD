@@ -52,3 +52,28 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+*.pyc
+venv/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
