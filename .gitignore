@@ -53,6 +53,9 @@ docs/_build/
 # PyBuilder
 target/
 
+# Database
+*.sqlite3
+
 # Mr Developer
 .mr.developer.cfg
 .project
