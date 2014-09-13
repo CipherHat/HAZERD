@@ -1,0 +1,23 @@
+<tier2_list>
+    <organization>
+        <name>company1</name>
+        <city>Manchester</city>
+        <tier>Tier 2</tier>
+        <rating>A rating</rating>
+        <subtier>Tier 2 General</subtier>
+    </organization>
+    <organization>
+        <name>company2</name>
+        <city>Manchester</city>
+        <tier>Tier 2</tier>
+        <rating>A rating</rating>
+        <subtier>Tier 2 General</subtier>
+    </organization>
+    <organization>
+        <name>company3</name>
+        <city>Manchester</city>
+        <tier>Tier 2</tier>
+        <rating>A rating</rating>
+        <subtier>Tier 2 General</subtier>
+    </organization>
+</tier2_list>
