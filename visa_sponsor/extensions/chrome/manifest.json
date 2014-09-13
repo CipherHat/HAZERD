@@ -2,8 +2,15 @@
     "name": "VisaSponsorExtension",
     "version": "0.0.1",
     "manifest_version": 2,
+    "description": "Get every background-color from the current tab.",
     "browser_action": {
-        "default_title": "That's the tool tip",
-        "default_popup": "popup.html"
-    }
+        "default_title": "That's the tool tip"
+    },
+
+    "background": {
+        "scripts": ["event.js"],
+        "persistent": false
+    },
+
+    "permissions": ["<all_urls>"]
 }
