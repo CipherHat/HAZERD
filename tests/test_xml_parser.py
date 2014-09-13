@@ -1,7 +1,9 @@
+from tests.src import database
+
 __author__ = 'Abdu'
 from os import  path
 from django.test import TestCase
-from visa_sponsor.src import database
+from tests.src import database
 
 class XMLParserTestCase(TestCase):
     def setUp(self):
@@ -12,4 +14,4 @@ class XMLParserTestCase(TestCase):
         """Animals that can speak are correctly identified"""
         db = database.Database()
         root = db.parse(path.join(self.data_dir, "tier2_sponsor_list.xml"))
-        self.assertEqual(root, 'tier2_list')
+        self.assertEqual(root.tag, 'tier2_list')
