@@ -18,7 +18,6 @@ class TestApp(unittest.TestCase):
 
     def test_home(self):
         r = self.c.get('/visa/')
-        print(r.status_code)
         self.assertEqual(200, r.status_code, "Status code was not 'OK'.")
 
 if __name__ == '__main__':

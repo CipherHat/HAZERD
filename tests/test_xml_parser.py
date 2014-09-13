@@ -8,7 +8,7 @@ from tests.src import database
 class XMLParserTestCase(TestCase):
     def setUp(self):
         dir, _ = path.split(__file__)
-        self.data_dir = path.join(dir, "..", "data")
+        self.data_dir = path.join(dir, "data")
 
     def test_animals_can_speak(self):
         """Animals that can speak are correctly identified"""
