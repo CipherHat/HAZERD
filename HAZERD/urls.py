@@ -6,6 +6,6 @@ urlpatterns = patterns('',
     # url(r'^$', 'HAZERD.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
     # url(r'^$', include('visa_sponsor.urls')),
-    url(r'^visa', include('visa_sponsor.urls')),
+    url(r'^visa/', include('visa_sponsor.urls')),
     url(r'^admin/', include(admin.site.urls)),
 )
